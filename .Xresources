@@ -40,3 +40,7 @@
 ! white
 *.color7: #c5c8c6
 *.color15: #FFFFFF
+
+
+! Font for rxvt-unicode
+URxvt.font: xft:UW Ttyp0:pixelsize=15
