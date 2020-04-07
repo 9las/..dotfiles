@@ -44,3 +44,6 @@
 
 ! Font for rxvt-unicode
 URxvt.font: xft:UW Ttyp0:pixelsize=15
+
+! Rofi settings
+rofi.modi: drun
