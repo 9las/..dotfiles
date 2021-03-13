@@ -1,49 +1,29 @@
-! displayctl
-#include "/home/nilas/.x/displayctlrc"
+#include "/home/nilas/.urxvt/colorschemes/base16-faded"
 
-! Colors
-! special
-*.background: #2e3440
-*.foreground: #ffffff
-*.cursorColor: #ffffff
-*.bar_background: #2e3440
-*.border: #2e3440
+! Define colors for rxvt-unicode
+URxvt.color0: color_black
+URxvt.color1: color_red
+URxvt.color2: color_green
+URxvt.color3: color_yellow
+URxvt.color4: color_blue
+URxvt.color5: color_magenta
+URxvt.color6: color_cyan
+URxvt.color7: color_white
+URxvt.color8: color_bright_black
+URxvt.color9: color_bright_red
+URxvt.color10: color_bright_green
+URxvt.color11: color_bright_yellow
+URxvt.color12: color_bright_blue
+URxvt.color13: color_bright_magenta
+URxvt.color14: color_bright_cyan
+URxvt.color15: color_bright_white
+URxvt.foreground: color_foreground
+URxvt.background: color_background
+URxvt.cursorColor: color_cursor
 
-! black
-*.color0: #2e3440
-*.color8: #606778
-
-! red
-*.color1: #b77a76
-*.color9: #b77a76
-
-! green
-*.color2: #b4bf86
-*.color10: #b4bf86
-
-! yellow
-*.color3: #cbb079
-*.color11: #cbb079
-
-! blue
-*.color4: #83a2be
-*.color12: #83a2be
-
-! magenta
-*.color5: #958090
-*.color13: #958090
-
-! cyan
-*.color6: #7daea9
-*.color14: #7daea9
-
-! white
-*.color7: #c5c8c6
-*.color15: #FFFFFF
-
-
-! Font for rxvt-unicode
-URxvt.font: xft:UW Ttyp0:pixelsize=15
+! Appearance for rxvt-unicode
+URxvt.font: xft:UW Ttyp0:pixelsize=16
+URxvt.scrollBar: false
 
 ! Rofi settings
 rofi.modi: drun

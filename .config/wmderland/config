@@ -157,7 +157,9 @@ bindsym XF86AudioMute exec amixer -q -D pulse set Master toggle
 bindsym XF86AudioRaiseVolume exec amixer -q -D pulse set Master 5%+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q -D pulse set Master 5%- unmute
 bindsym XF86PowerOff exec qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.logout -1 -1 -1
+bindsym Print exec import png:- | xclip -selection clipboard -t image/png
 bindsym $Mod+Escape exec toggle_screen.sh
+bindsym $Mod+p exec toggle_monitor
 
 bindsym Control+Shift+3 exec scrotutl -f
 bindsym Control+Shift+4 exec scrotutl -s
@@ -172,10 +174,11 @@ bindsym $Mod+Return goto_workspace 1; exec urxvt
 ; -----------------------------------------------------------------------
 ; exec pulseaudio --start --log-target=syslog
 ; exec_on_reload ~/.config/mpd/launch.sh
+exec feh --bg-fill ~/Pictures/Wallpapers/i-HZT8VDH-O.jpg
 exec dunst
 ; exec dispad
-exec displayctl
+; exec displayctl
 ; exec klipper
 ; exec killall krunner
-exec picom --config ~/.config/picom/picom.conf
+;exec picom --config ~/.config/picom/picom.conf
 exec_on_reload ~/.config/polybar/launch.sh
