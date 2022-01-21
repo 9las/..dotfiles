@@ -1,5 +1,5 @@
 ! Import color scheme for rxvt-unicode
-#include "$HOME/.Xresources.d/color_schemes/base16-faded"
+#include ".Xresources.d/color_schemes/base16-faded"
 
 ! Set colors for rxvt-unicode
 URxvt.color0: color_black
