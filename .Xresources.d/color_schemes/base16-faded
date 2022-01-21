@@ -1,0 +1,25 @@
+! Color scheme for rxvt-unicode. To activate the color scheme include it in ~/.Xresources
+
+! Define color palette
+#define color_black #2e3440
+#define color_red #b77a76
+#define color_green #b4bf86
+#define color_yellow #cbb079
+#define color_blue #83a2be
+#define color_magenta #958090
+#define color_cyan #7daea9
+#define color_white #c5c8c6
+
+#define color_bright_black #606778
+#define color_bright_red #b77a76
+#define color_bright_green #b4bf86
+#define color_bright_yellow #cbb079
+#define color_bright_blue #83a2be
+#define color_bright_magenta #958090
+#define color_bright_cyan #7daea9
+#define color_bright_white #ffffff
+
+! Define color of elements
+#define color_foreground color_bright_white
+#define color_background color_black
+#define color_cursor color_bright_white

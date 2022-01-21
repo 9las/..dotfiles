@@ -1,6 +1,7 @@
-#include "/home/nilas/.urxvt/colorschemes/base16-faded"
+! Import color scheme for rxvt-unicode
+#include "$HOME/.Xresources.d/color_schemes/base16-faded"
 
-! Define colors for rxvt-unicode
+! Set colors for rxvt-unicode
 URxvt.color0: color_black
 URxvt.color1: color_red
 URxvt.color2: color_green
@@ -24,6 +25,3 @@ URxvt.cursorColor: color_cursor
 ! Appearance for rxvt-unicode
 URxvt.font: xft:UW Ttyp0:pixelsize=16
 URxvt.scrollBar: false
-
-! Rofi settings
-rofi.modi: drun

@@ -1,9 +1,10 @@
-call plug#begin('~/.local/share/nvim/plugged')
+" Load plugins
+call plug#begin()
 
-Plug 'aesophor/base16-faded'
+Plug 'base16-faded'
 
 call plug#end()
 
-set t_Co=256
-syntax on
+" set t_Co=256 |" Might not be needed (see https://www.reddit.com/r/neovim/comments/cfdxo9/do_i_need_set_t_co256/)
+syntax enable
 colorscheme base16-faded

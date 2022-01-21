@@ -1,0 +1,59 @@
+configuration {
+  show-icons: true;
+  drun-display-format: "{name}";
+  icon-theme: "Papirus-Dark";
+  location: 5; // bottom-right
+}
+
+* {
+background-color: #232635;
+//background-image: url("~/Documents/Fritid/Spil/Minecraft/Skins/Viking.png", both);
+  text-color: white;
+}
+
+window {
+  fullscreen: false;
+  font: "UW Ttyp0 12";
+  width: 28%;
+  height: calc( 100% - 40px );
+}
+
+prompt { enabled: false; }
+
+entry {
+  padding: 5px 0 5px 0;
+  horizontal-align: 0.5;
+  margin: 2% 5% 0% 5%;
+  color: #fff;
+  background-color: #161828;
+  font: "UW Ttyp0 12";
+  border-radius: 30px;
+  placeholder: "Search";
+}
+
+listview {
+  columns: 3;
+  margin: 0.5%;
+}
+
+element {
+  padding: 0.4%;
+  margin: 1% 0.3% 1% 0.3%;
+  orientation: vertical;
+}
+
+element selected {
+  text-color: #fff;
+  background-color: #161828;
+  border-radius: 10px;
+}
+
+element-icon {
+  background-color: inherit;
+  size: 48;
+}
+
+element-text {
+  background-color: inherit;
+  horizontal-align: 0.5;
+}
