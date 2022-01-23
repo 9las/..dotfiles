@@ -1,7 +1,7 @@
 " Load plugins
 call plug#begin()
 
-Plug 'base16-faded'
+Plug 'aesophor/base16-faded'
 
 call plug#end()
 
